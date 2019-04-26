@@ -6,7 +6,7 @@ import requests
 import numpy as np
 from collections import Counter
 
-pdfFileObject = open('C:/Users/Philip Sutera/Desktop/S+ Consulting/Policy/City Budgets/test/2005_Test_Budget.pdf', 'rb')
+pdfFileObject = open('https://github.com/splusconsulting/pfd-word-count/2005_Test_Budget.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(pdfFileObject)
 count = pdfReader.numPages
 
